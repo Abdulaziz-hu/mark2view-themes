@@ -7,7 +7,7 @@
     "version": "1.0.0",
     "variant": "dark",
     "tags": ["dark", "blue", "minimal", "cool"],
-    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/nord/nord.css",
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/nord/nord.css",
     "preview": {
       "background": "#2e3440",
       "heading": "#88c0d0",
@@ -24,7 +24,7 @@
     "version": "1.0.0",
     "variant": "dark",
     "tags": ["dark", "solarized", "warm", "classic"],
-    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/solarized-dark/solarized-dark.css",
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/solarized-dark/solarized-dark.css",
     "preview": {
       "background": "#002b36",
       "heading": "#268bd2",
@@ -41,7 +41,7 @@
     "version": "1.0.0",
     "variant": "light",
     "tags": ["light", "github", "clean", "professional"],
-    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/github-light/github-light.css",
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/github-light/github-light.css",
     "preview": {
       "background": "#ffffff",
       "heading": "#0550ae",
@@ -58,7 +58,7 @@
     "version": "1.0.0",
     "variant": "dark",
     "tags": ["dark", "purple", "neon", "tokyo"],
-    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/tokyo-night/tokyo-night.css",
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/tokyo-night/tokyo-night.css",
     "preview": {
       "background": "#1a1b26",
       "heading": "#7aa2f7",
@@ -75,7 +75,7 @@
     "version": "1.0.0",
     "variant": "dark",
     "tags": ["dark", "purple", "dracula", "vibrant"],
-    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/dracula/dracula.css",
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/dracula/dracula.css",
     "preview": {
       "background": "#282a36",
       "heading": "#ff79c6",
@@ -92,7 +92,7 @@
     "version": "1.0.0",
     "variant": "light",
     "tags": ["light", "warm", "paper", "minimal"],
-    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/paper/paper.css",
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/paper/paper.css",
     "preview": {
       "background": "#f4f0e8",
       "heading": "#5c4a2a",
