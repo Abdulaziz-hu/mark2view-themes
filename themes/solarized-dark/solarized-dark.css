@@ -1,0 +1,63 @@
+/*
+ * Solarized Dark Theme for Mark2View
+ * Based on Ethan Schoonover's Solarized palette
+ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+  --bg-app:       #002b36;
+  --bg-sidebar:   #073642;
+  --bg-editor:    #002b36;
+  --bg-titlebar:  #00212b;
+  --bg-panel:     #073642;
+  --bg-input:     #073642;
+  --bg-hover:     #0d3f4d;
+  --bg-active:    #134956;
+  --bg-modal:     #073642;
+  --bg-overlay:   rgba(0, 18, 24, 0.78);
+  --bg-toolbar:   rgba(7, 54, 66, 0.97);
+  --bg-scrollbar: #073642;
+  --bg-scrollbar-thumb: #2a4a55;
+
+  --border:        #073642;
+  --border-subtle: #04303d;
+  --border-focus:  #2aa198;
+
+  --text-primary:   #eee8d5;
+  --text-secondary: #93a1a1;
+  --text-muted:     #586e75;
+  --text-accent:    #2aa198;
+  --text-link:      #268bd2;
+  --text-heading:   #fdf6e3;
+
+  --accent:       #2aa198;
+  --accent-hover: #38b2a8;
+  --accent-dim:   rgba(42, 161, 152, 0.15);
+
+  --danger:       #dc322f;
+  --danger-hover: #ec423f;
+  --warning:      #b58900;
+
+  --shadow-sm:      0 1px 3px rgba(0,0,0,0.5);
+  --shadow-md:      0 4px 16px rgba(0,0,0,0.6);
+  --shadow-lg:      0 8px 32px rgba(0,0,0,0.7);
+  --shadow-toolbar: 0 4px 24px rgba(0,0,0,0.65);
+
+  --syntax-heading: #268bd2;
+  --syntax-bold:    #eee8d5;
+  --syntax-italic:  #93a1a1;
+  --syntax-code:    #859900;
+  --syntax-link:    #268bd2;
+  --syntax-quote:   #586e75;
+  --syntax-hr:      #2a4a55;
+}
+
+.ProseMirror h1 { color: #268bd2; }
+.ProseMirror h2 { color: #2aa198; }
+.ProseMirror h3 { color: #859900; }
+.ProseMirror strong { color: #eee8d5; }
+.ProseMirror em     { color: #93a1a1; font-style: italic; }
+.ProseMirror code   { background: rgba(133,153,0,0.12); color: #859900; border-color: rgba(133,153,0,0.2); }
+.ProseMirror a      { color: #268bd2; }
+.ProseMirror blockquote { border-left-color: #586e75; color: #657b83; }

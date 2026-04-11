@@ -1,0 +1,63 @@
+/*
+ * Tokyo Night Theme for Mark2View
+ * Inspired by the neon-lit streets of Tokyo at night
+ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+  --bg-app:       #1a1b26;
+  --bg-sidebar:   #16161e;
+  --bg-editor:    #1a1b26;
+  --bg-titlebar:  #16161e;
+  --bg-panel:     #1f2335;
+  --bg-input:     #1f2335;
+  --bg-hover:     #292e42;
+  --bg-active:    #2f3549;
+  --bg-modal:     #1f2335;
+  --bg-overlay:   rgba(10, 10, 18, 0.78);
+  --bg-toolbar:   rgba(22, 22, 30, 0.96);
+  --bg-scrollbar: #1f2335;
+  --bg-scrollbar-thumb: #3b4261;
+
+  --border:        #1f2335;
+  --border-subtle: #1a1e2e;
+  --border-focus:  #7aa2f7;
+
+  --text-primary:   #c0caf5;
+  --text-secondary: #9aa5ce;
+  --text-muted:     #565f89;
+  --text-accent:    #7aa2f7;
+  --text-link:      #7dcfff;
+  --text-heading:   #c0caf5;
+
+  --accent:       #7aa2f7;
+  --accent-hover: #8ab4ff;
+  --accent-dim:   rgba(122, 162, 247, 0.13);
+
+  --danger:       #f7768e;
+  --danger-hover: #ff8fa3;
+  --warning:      #e0af68;
+
+  --shadow-sm:      0 1px 3px rgba(0,0,0,0.6);
+  --shadow-md:      0 4px 16px rgba(0,0,0,0.7);
+  --shadow-lg:      0 8px 32px rgba(0,0,0,0.8);
+  --shadow-toolbar: 0 4px 24px rgba(0,0,0,0.7);
+
+  --syntax-heading: #7aa2f7;
+  --syntax-bold:    #c0caf5;
+  --syntax-italic:  #bb9af7;
+  --syntax-code:    #9ece6a;
+  --syntax-link:    #7dcfff;
+  --syntax-quote:   #565f89;
+  --syntax-hr:      #3b4261;
+}
+
+.ProseMirror h1 { color: #7aa2f7; }
+.ProseMirror h2 { color: #7dcfff; }
+.ProseMirror h3 { color: #bb9af7; }
+.ProseMirror strong { color: #c0caf5; font-weight: 700; }
+.ProseMirror em     { color: #bb9af7; }
+.ProseMirror code   { background: rgba(158,206,106,0.1); color: #9ece6a; border-color: rgba(158,206,106,0.2); }
+.ProseMirror a      { color: #7dcfff; }
+.ProseMirror blockquote { border-left-color: #3b4261; color: #565f89; }

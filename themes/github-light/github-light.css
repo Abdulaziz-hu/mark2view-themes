@@ -1,0 +1,64 @@
+/*
+ * GitHub Light Theme for Mark2View
+ * Clean, professional, familiar
+ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+  --bg-app:       #ffffff;
+  --bg-sidebar:   #f6f8fa;
+  --bg-editor:    #ffffff;
+  --bg-titlebar:  #f6f8fa;
+  --bg-panel:     #f6f8fa;
+  --bg-input:     #eaeef2;
+  --bg-hover:     #e8ecf0;
+  --bg-active:    #dde3e8;
+  --bg-modal:     #f6f8fa;
+  --bg-overlay:   rgba(0, 0, 0, 0.35);
+  --bg-toolbar:   rgba(246, 248, 250, 0.97);
+  --bg-scrollbar: #e8ecf0;
+  --bg-scrollbar-thumb: #c9cdd1;
+
+  --border:        #d0d7de;
+  --border-subtle: #e1e4e8;
+  --border-focus:  #0969da;
+
+  --text-primary:   #1f2328;
+  --text-secondary: #57606a;
+  --text-muted:     #8c959f;
+  --text-accent:    #0969da;
+  --text-link:      #0969da;
+  --text-heading:   #1f2328;
+
+  --accent:       #0969da;
+  --accent-hover: #0860ca;
+  --accent-dim:   rgba(9, 105, 218, 0.1);
+
+  --danger:       #cf222e;
+  --danger-hover: #a40e26;
+  --warning:      #9a6700;
+
+  --shadow-sm:      0 1px 3px rgba(0,0,0,0.08);
+  --shadow-md:      0 4px 16px rgba(0,0,0,0.12);
+  --shadow-lg:      0 8px 32px rgba(0,0,0,0.16);
+  --shadow-toolbar: 0 4px 20px rgba(0,0,0,0.12);
+
+  --syntax-heading: #0550ae;
+  --syntax-bold:    #1f2328;
+  --syntax-italic:  #57606a;
+  --syntax-code:    #cf222e;
+  --syntax-link:    #0969da;
+  --syntax-quote:   #57606a;
+  --syntax-hr:      #d0d7de;
+}
+
+.ProseMirror h1 { color: #1f2328; border-bottom-color: #d0d7de; }
+.ProseMirror h2 { color: #1f2328; border-bottom-color: #eaeef2; }
+.ProseMirror h3 { color: #1f2328; }
+.ProseMirror strong { color: #1f2328; }
+.ProseMirror em     { color: #57606a; }
+.ProseMirror code   { background: rgba(175,184,193,0.2); color: #cf222e; border-color: rgba(175,184,193,0.3); font-size: 0.875em; }
+.ProseMirror a      { color: #0969da; }
+.ProseMirror blockquote { border-left-color: #d0d7de; color: #57606a; }
+.ProseMirror pre    { background: #f6f8fa; border-color: #d0d7de; }

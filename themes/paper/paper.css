@@ -1,0 +1,81 @@
+/*
+ * Paper Theme for Mark2View
+ * Warm parchment — like writing on real paper
+ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+  --bg-app:       #f4f0e8;
+  --bg-sidebar:   #ece8df;
+  --bg-editor:    #f8f5ee;
+  --bg-titlebar:  #e8e4db;
+  --bg-panel:     #ede9e0;
+  --bg-input:     #e4e0d6;
+  --bg-hover:     #ddd9cf;
+  --bg-active:    #d4d0c6;
+  --bg-modal:     #ede9e0;
+  --bg-overlay:   rgba(30, 20, 10, 0.4);
+  --bg-toolbar:   rgba(236, 232, 223, 0.97);
+  --bg-scrollbar: #ddd9cf;
+  --bg-scrollbar-thumb: #c4bfb4;
+
+  --border:        #d4cfc4;
+  --border-subtle: #ddd9cf;
+  --border-focus:  #7c6040;
+
+  --text-primary:   #2c1f0e;
+  --text-secondary: #6b5840;
+  --text-muted:     #a09070;
+  --text-accent:    #7c6040;
+  --text-link:      #5a4a8a;
+  --text-heading:   #1e1408;
+
+  --accent:       #7c6040;
+  --accent-hover: #6a5030;
+  --accent-dim:   rgba(124, 96, 64, 0.12);
+
+  --danger:       #b03030;
+  --danger-hover: #c04040;
+  --warning:      #a07020;
+
+  --shadow-sm:      0 1px 4px rgba(60,40,20,0.1);
+  --shadow-md:      0 4px 16px rgba(60,40,20,0.14);
+  --shadow-lg:      0 8px 32px rgba(60,40,20,0.18);
+  --shadow-toolbar: 0 4px 20px rgba(60,40,20,0.16);
+
+  --syntax-heading: #5c3a1e;
+  --syntax-bold:    #2c1f0e;
+  --syntax-italic:  #6b5840;
+  --syntax-code:    #5a3a18;
+  --syntax-link:    #5a4a8a;
+  --syntax-quote:   #8a7055;
+  --syntax-hr:      #c4bfb4;
+
+  --font-serif: 'Lora', 'Palatino Linotype', Palatino, Georgia, serif;
+}
+
+.ProseMirror {
+  font-family: var(--font-serif);
+}
+
+.ProseMirror h1 { color: #2c1a08; border-bottom-color: #c4bfb4; }
+.ProseMirror h2 { color: #3a2510; border-bottom-color: #d4cfc4; }
+.ProseMirror h3 { color: #4a3018; }
+.ProseMirror strong { color: #1e1408; }
+.ProseMirror em     { color: #6b5840; }
+.ProseMirror code   {
+  background: rgba(90, 58, 24, 0.08);
+  color: #5a3a18;
+  border-color: rgba(90, 58, 24, 0.15);
+  font-family: var(--font-mono);
+}
+.ProseMirror a      { color: #5a4a8a; }
+.ProseMirror blockquote {
+  border-left-color: #c4bfb4;
+  color: #8a7055;
+  background: rgba(180, 165, 140, 0.08);
+  border-radius: 0 4px 4px 0;
+  padding: 0.3em 0.3em 0.3em 1.4em;
+}
+.ProseMirror pre    { background: #ede9e0; border-color: #d4cfc4; }

@@ -1,0 +1,63 @@
+/*
+ * Dracula Theme for Mark2View
+ * The legendary dark theme — https://draculatheme.com
+ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+  --bg-app:       #282a36;
+  --bg-sidebar:   #21222c;
+  --bg-editor:    #282a36;
+  --bg-titlebar:  #21222c;
+  --bg-panel:     #21222c;
+  --bg-input:     #2d2f3e;
+  --bg-hover:     #343746;
+  --bg-active:    #3d3f55;
+  --bg-modal:     #21222c;
+  --bg-overlay:   rgba(14, 15, 22, 0.8);
+  --bg-toolbar:   rgba(33, 34, 44, 0.97);
+  --bg-scrollbar: #21222c;
+  --bg-scrollbar-thumb: #44475a;
+
+  --border:        #44475a;
+  --border-subtle: #343746;
+  --border-focus:  #bd93f9;
+
+  --text-primary:   #f8f8f2;
+  --text-secondary: #b4b8c5;
+  --text-muted:     #6272a4;
+  --text-accent:    #bd93f9;
+  --text-link:      #8be9fd;
+  --text-heading:   #f8f8f2;
+
+  --accent:       #bd93f9;
+  --accent-hover: #caa7ff;
+  --accent-dim:   rgba(189, 147, 249, 0.13);
+
+  --danger:       #ff5555;
+  --danger-hover: #ff6e6e;
+  --warning:      #ffb86c;
+
+  --shadow-sm:      0 1px 3px rgba(0,0,0,0.5);
+  --shadow-md:      0 4px 16px rgba(0,0,0,0.6);
+  --shadow-lg:      0 8px 32px rgba(0,0,0,0.7);
+  --shadow-toolbar: 0 4px 24px rgba(0,0,0,0.65);
+
+  --syntax-heading: #ff79c6;
+  --syntax-bold:    #f8f8f2;
+  --syntax-italic:  #f1fa8c;
+  --syntax-code:    #50fa7b;
+  --syntax-link:    #8be9fd;
+  --syntax-quote:   #6272a4;
+  --syntax-hr:      #44475a;
+}
+
+.ProseMirror h1 { color: #ff79c6; }
+.ProseMirror h2 { color: #bd93f9; }
+.ProseMirror h3 { color: #8be9fd; }
+.ProseMirror strong { color: #f8f8f2; }
+.ProseMirror em     { color: #f1fa8c; }
+.ProseMirror code   { background: rgba(80,250,123,0.1); color: #50fa7b; border-color: rgba(80,250,123,0.2); }
+.ProseMirror a      { color: #8be9fd; }
+.ProseMirror blockquote { border-left-color: #6272a4; color: #6272a4; }

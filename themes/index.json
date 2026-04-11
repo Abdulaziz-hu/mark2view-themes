@@ -1,0 +1,104 @@
+[
+  {
+    "id": "nord",
+    "name": "Nord",
+    "description": "An arctic, north-bluish color palette. Clean and minimal with cool blues and teals.",
+    "author": "mark2view-themes",
+    "version": "1.0.0",
+    "variant": "dark",
+    "tags": ["dark", "blue", "minimal", "cool"],
+    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/nord/nord.css",
+    "preview": {
+      "background": "#2e3440",
+      "heading": "#88c0d0",
+      "text": "#d8dee9",
+      "accent": "#88c0d0",
+      "code": "#a3be8c"
+    }
+  },
+  {
+    "id": "solarized-dark",
+    "name": "Solarized Dark",
+    "description": "The classic Solarized dark palette. Warm amber tones with carefully chosen contrasts.",
+    "author": "mark2view-themes",
+    "version": "1.0.0",
+    "variant": "dark",
+    "tags": ["dark", "solarized", "warm", "classic"],
+    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/solarized-dark/solarized-dark.css",
+    "preview": {
+      "background": "#002b36",
+      "heading": "#268bd2",
+      "text": "#839496",
+      "accent": "#2aa198",
+      "code": "#859900"
+    }
+  },
+  {
+    "id": "github-light",
+    "name": "GitHub Light",
+    "description": "Clean, familiar GitHub-inspired light theme. Great for daytime writing.",
+    "author": "mark2view-themes",
+    "version": "1.0.0",
+    "variant": "light",
+    "tags": ["light", "github", "clean", "professional"],
+    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/github-light/github-light.css",
+    "preview": {
+      "background": "#ffffff",
+      "heading": "#0550ae",
+      "text": "#1f2328",
+      "accent": "#0969da",
+      "code": "#cf222e"
+    }
+  },
+  {
+    "id": "tokyo-night",
+    "name": "Tokyo Night",
+    "description": "Inspired by the neon lights of Tokyo. Deep purples and electric blues.",
+    "author": "mark2view-themes",
+    "version": "1.0.0",
+    "variant": "dark",
+    "tags": ["dark", "purple", "neon", "tokyo"],
+    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/tokyo-night/tokyo-night.css",
+    "preview": {
+      "background": "#1a1b26",
+      "heading": "#7aa2f7",
+      "text": "#c0caf5",
+      "accent": "#7aa2f7",
+      "code": "#9ece6a"
+    }
+  },
+  {
+    "id": "dracula",
+    "name": "Dracula",
+    "description": "The legendary Dracula dark theme. Rich purples with vibrant accents.",
+    "author": "mark2view-themes",
+    "version": "1.0.0",
+    "variant": "dark",
+    "tags": ["dark", "purple", "dracula", "vibrant"],
+    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/dracula/dracula.css",
+    "preview": {
+      "background": "#282a36",
+      "heading": "#ff79c6",
+      "text": "#f8f8f2",
+      "accent": "#bd93f9",
+      "code": "#50fa7b"
+    }
+  },
+  {
+    "id": "paper",
+    "name": "Paper",
+    "description": "A warm, parchment-like light theme. Feels like writing on real paper.",
+    "author": "mark2view-themes",
+    "version": "1.0.0",
+    "variant": "light",
+    "tags": ["light", "warm", "paper", "minimal"],
+    "cssUrl": "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/mark2view-themes/main/themes/paper/paper.css",
+    "preview": {
+      "background": "#f4f0e8",
+      "heading": "#5c4a2a",
+      "text": "#3d2e1a",
+      "accent": "#7c6040",
+      "code": "#6b4f2a"
+    }
+  }
+]

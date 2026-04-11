@@ -1,0 +1,72 @@
+/*
+ * Nord Theme for Mark2View
+ * An arctic, north-bluish color palette
+ * https://www.nordtheme.com
+ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+  /* ── Core backgrounds ── */
+  --bg-app:       #2e3440;
+  --bg-sidebar:   #2e3440;
+  --bg-editor:    #2e3440;
+  --bg-titlebar:  #272c36;
+  --bg-panel:     #3b4252;
+  --bg-input:     #3b4252;
+  --bg-hover:     #434c5e;
+  --bg-active:    #4c566a;
+  --bg-modal:     #3b4252;
+  --bg-overlay:   rgba(20, 24, 32, 0.75);
+  --bg-toolbar:   rgba(46, 52, 64, 0.96);
+  --bg-scrollbar: #3b4252;
+  --bg-scrollbar-thumb: #4c566a;
+
+  /* ── Borders ── */
+  --border:        #3b4252;
+  --border-subtle: #333948;
+  --border-focus:  #88c0d0;
+
+  /* ── Text ── */
+  --text-primary:   #eceff4;
+  --text-secondary: #d8dee9;
+  --text-muted:     #616e88;
+  --text-accent:    #88c0d0;
+  --text-link:      #81a1c1;
+  --text-heading:   #eceff4;
+
+  /* ── Accent ── */
+  --accent:       #88c0d0;
+  --accent-hover: #8fbccc;
+  --accent-dim:   rgba(136, 192, 208, 0.15);
+
+  /* ── Status ── */
+  --danger:       #bf616a;
+  --danger-hover: #cf717a;
+  --warning:      #ebcb8b;
+
+  /* ── Shadows ── */
+  --shadow-sm:      0 1px 3px rgba(0,0,0,0.5);
+  --shadow-md:      0 4px 16px rgba(0,0,0,0.6);
+  --shadow-lg:      0 8px 32px rgba(0,0,0,0.7);
+  --shadow-toolbar: 0 4px 20px rgba(0,0,0,0.6);
+
+  /* ── Syntax ── */
+  --syntax-heading: #88c0d0;
+  --syntax-bold:    #eceff4;
+  --syntax-italic:  #d8dee9;
+  --syntax-code:    #a3be8c;
+  --syntax-link:    #81a1c1;
+  --syntax-quote:   #81a1c1;
+  --syntax-hr:      #4c566a;
+}
+
+/* Nord-specific ProseMirror overrides */
+.ProseMirror h1 { color: #8fbcbb; }
+.ProseMirror h2 { color: #88c0d0; }
+.ProseMirror h3 { color: #81a1c1; }
+.ProseMirror strong { color: #eceff4; }
+.ProseMirror em     { color: #d8dee9; }
+.ProseMirror code   { background: rgba(163,190,140,0.12); color: #a3be8c; border-color: rgba(163,190,140,0.2); }
+.ProseMirror a      { color: #81a1c1; }
+.ProseMirror blockquote { border-left-color: #5e81ac; color: #81a1c1; }
