@@ -1,6 +1,6 @@
 # mark2view-themes
 
-The official community theme repository for [Mark2View](https://github.com/Abdulaziz-hu/mark2view). A distraction-free Markdown editor.
+The official community theme repository for Mark2View. A distraction-free Markdown editor.
 
 Themes are browsable and installable directly from within the app via **Settings -> Appearance -> Theme Market**.
 
