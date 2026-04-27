@@ -391,7 +391,7 @@ If you find that a theme contains malicious CSS (e.g., a `javascript:` URL that 
 
 ### App bug (not theme-related)
 
-For bugs in Mark2View itself, open an issue in the [mark2view main repository](https://github.com/Abdulaziz-hu/mark2view), not here.
+For bugs in Mark2View itself, open an issue in the [mark2view main repository](https://github.com/Abdulaziz-hu/Mark2View-Releases/issues), not here.
 
 ## 12. Guidelines & Rules
 
