@@ -1,0 +1,132 @@
+/*
+ * Forest for Mark2View
+ * Author: Abdulaziz-Hu
+ * Version: 1.0.0
+ * Variant: dark
+ *
+ * A deep, natural dark theme inspired by woodland nights. Mossy greens,
+ * bark browns, and firefly amber. A calm, earthy writing environment.
+ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+    /* ── BACKGROUNDS ─────────────────────────────────────────────── */
+    --bg-app: #1a1f1a; /* Deep forest floor                             */
+    --bg-sidebar: #151a15;
+    --bg-editor: #1a1f1a;
+    --bg-titlebar: #111511;
+    --bg-panel: #242b24;
+    --bg-input: #242b24;
+    --bg-hover: #2e372e;
+    --bg-active: #394139;
+    --bg-modal: #242b24;
+    --bg-overlay: rgba(15, 19, 15, 0.8);
+    --bg-toolbar: rgba(21, 26, 21, 0.96);
+    --bg-scrollbar: #242b24;
+    --bg-scrollbar-thumb: #394139;
+
+    /* ── BORDERS ─────────────────────────────────────────────────── */
+    --border: #3a4a3a;
+    --border-subtle: #242b24;
+    --border-focus: #8db87a; /* Sage green                                    */
+
+    /* ── TEXT ────────────────────────────────────────────────────── */
+    --text-primary: #d4e0c4; /* Pale leaf                                     */
+    --text-secondary: #9ab885; /* Fern                                          */
+    --text-muted: #556655; /* Dark moss                                     */
+    --text-accent: #8db87a; /* Sage                                          */
+    --text-link: #7abfb8; /* Forest stream                                 */
+    --text-heading: #d4e0c4;
+
+    /* ── ACCENT ──────────────────────────────────────────────────── */
+    --accent: #8db87a; /* Sage green                                     */
+    --accent-hover: #a2c98f;
+    --accent-dim: rgba(141, 184, 122, 0.14);
+
+    /* ── STATUS ──────────────────────────────────────────────────── */
+    --danger: #c0665a;
+    --danger-hover: #d07770;
+    --warning: #c8a84b; /* Amber                                          */
+
+    /* ── SHADOWS ─────────────────────────────────────────────────── */
+    --shadow-sm: 0 1px 3px rgba(10, 14, 10, 0.5);
+    --shadow-md: 0 4px 16px rgba(10, 14, 10, 0.6);
+    --shadow-lg: 0 8px 32px rgba(10, 14, 10, 0.7);
+    --shadow-toolbar: 0 4px 20px rgba(10, 14, 10, 0.6);
+
+    /* ── SYNTAX ──────────────────────────────────────────────────── */
+    --syntax-heading: #8db87a; /* Sage                                          */
+    --syntax-bold: #d4e0c4;
+    --syntax-italic: #9ab885;
+    --syntax-code: #c8a84b; /* Amber / firefly                               */
+    --syntax-link: #7abfb8;
+    --syntax-quote: #556655;
+    --syntax-hr: #3a4a3a;
+}
+
+/* ── Editor content overrides ────────────────────────────────── */
+
+.ProseMirror h1 {
+    color: #c8a84b;
+} /* Amber / firefly */
+.ProseMirror h2 {
+    color: #8db87a;
+} /* Sage */
+.ProseMirror h3 {
+    color: #7abfb8;
+} /* Stream */
+.ProseMirror h4 {
+    color: #9ab885;
+} /* Fern */
+.ProseMirror h5 {
+    color: #d4e0c4;
+} /* Pale leaf */
+.ProseMirror h6 {
+    color: #556655;
+} /* Moss */
+
+.ProseMirror strong {
+    color: #d4e0c4;
+    font-weight: 700;
+}
+.ProseMirror em {
+    color: #9ab885;
+    font-style: italic;
+}
+
+.ProseMirror code {
+    background: rgba(200, 168, 75, 0.1);
+    color: #c8a84b;
+    border-color: rgba(200, 168, 75, 0.22);
+}
+
+.ProseMirror a {
+    color: #7abfb8;
+}
+.ProseMirror a:hover {
+    color: #9dd4cf;
+}
+
+.ProseMirror blockquote {
+    border-left-color: #8db87a;
+    color: #556655;
+}
+
+.ProseMirror pre {
+    background: #151a15;
+    border-color: #3a4a3a;
+}
+
+.ProseMirror th {
+    background: #242b24;
+    color: #d4e0c4;
+}
+.ProseMirror td,
+.ProseMirror th {
+    border-color: #3a4a3a;
+}
+
+.ProseMirror hr {
+    border-top-color: #3a4a3a;
+}

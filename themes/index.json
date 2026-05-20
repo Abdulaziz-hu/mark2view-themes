@@ -100,5 +100,90 @@
       "accent": "#7c6040",
       "code": "#6b4f2a"
     }
+  },
+  {
+    "id": "catppuccin-mocha",
+    "name": "Catppuccin Mocha",
+    "description": "A soothing pastel dark theme with warm mauve accents and sky-blue headings.",
+    "author": "community",
+    "version": "1.0.0",
+    "variant": "dark",
+    "tags": ["dark", "pastel", "purple", "blue", "catppuccin"],
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/catppuccin-mocha/catppuccin-mocha.css",
+    "preview": {
+      "background": "#1e1e2e",
+      "heading": "#cba6f7",
+      "text": "#cdd6f4",
+      "accent": "#89b4fa",
+      "code": "#a6e3a1"
+    }
+  },
+  {
+    "id": "rose-pine",
+    "name": "Rosé Pine",
+    "description": "A muted dark theme with warm rose and gold tones — gentle for long writing sessions.",
+    "author": "community",
+    "version": "1.0.0",
+    "variant": "dark",
+    "tags": ["dark", "rose", "warm", "muted", "minimal"],
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/rose-pine/rose-pine.css",
+    "preview": {
+      "background": "#191724",
+      "heading": "#eb6f92",
+      "text": "#e0def4",
+      "accent": "#c4a7e7",
+      "code": "#9ccfd8"
+    }
+  },
+  {
+    "id": "gruvbox-dark",
+    "name": "Gruvbox Dark",
+    "description": "A retro groove theme with warm earthy tones and hard contrast. Classic terminal aesthetic.",
+    "author": "community",
+    "version": "1.0.0",
+    "variant": "dark",
+    "tags": ["dark", "retro", "earthy", "warm", "gruvbox"],
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/gruvbox-dark/gruvbox-dark.css",
+    "preview": {
+      "background": "#282828",
+      "heading": "#fabd2f",
+      "text": "#ebdbb2",
+      "accent": "#d79921",
+      "code": "#8ec07c"
+    }
+  },
+  {
+    "id": "one-light",
+    "name": "One Light",
+    "description": "A clean, professional light theme with cool whites, soft grays, and a vivid blue accent.",
+    "author": "community",
+    "version": "1.0.0",
+    "variant": "light",
+    "tags": ["light", "clean", "minimal", "blue", "professional"],
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/one-light/one-light.css",
+    "preview": {
+      "background": "#fafafa",
+      "heading": "#e45649",
+      "text": "#383a42",
+      "accent": "#4078f2",
+      "code": "#50a14f"
+    }
+  },
+  {
+    "id": "forest",
+    "name": "Forest",
+    "description": "Deep, natural dark theme inspired by woodland nights — mossy greens, bark browns, firefly amber.",
+    "author": "community",
+    "version": "1.0.0",
+    "variant": "dark",
+    "tags": ["dark", "green", "nature", "earthy", "calm"],
+    "cssUrl": "https://raw.githubusercontent.com/Abdulaziz-hu/mark2view-themes/main/themes/forest/forest.css",
+    "preview": {
+      "background": "#1a1f1a",
+      "heading": "#c8a84b",
+      "text": "#d4e0c4",
+      "accent": "#8db87a",
+      "code": "#7abfb8"
+    }
   }
 ]

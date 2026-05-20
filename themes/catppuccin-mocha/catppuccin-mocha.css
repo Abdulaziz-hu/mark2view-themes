@@ -1,0 +1,132 @@
+/*
+ * Catppuccin Mocha for Mark2View
+ * Author: Abdulaziz-Hu
+ * Version: 1.0.0
+ * Variant: dark
+ *
+ * Based on the Catppuccin Mocha palette. A soothing pastel dark theme
+ * with warm mauve accents and carefully balanced contrast.
+ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+    /* ── BACKGROUNDS ─────────────────────────────────────────────── */
+    --bg-app: #1e1e2e; /* Crust-tinted base                            */
+    --bg-sidebar: #181825; /* Mantle                                       */
+    --bg-editor: #1e1e2e; /* Base                                         */
+    --bg-titlebar: #11111b; /* Crust                                        */
+    --bg-panel: #313244; /* Surface 0                                    */
+    --bg-input: #313244; /* Surface 0                                    */
+    --bg-hover: #45475a; /* Surface 1                                    */
+    --bg-active: #585b70; /* Surface 2                                    */
+    --bg-modal: #313244; /* Surface 0                                    */
+    --bg-overlay: rgba(17, 17, 27, 0.75);
+    --bg-toolbar: rgba(24, 24, 37, 0.96);
+    --bg-scrollbar: #313244;
+    --bg-scrollbar-thumb: #585b70;
+
+    /* ── BORDERS ─────────────────────────────────────────────────── */
+    --border: #45475a;
+    --border-subtle: #313244;
+    --border-focus: #cba6f7; /* Mauve accent                                 */
+
+    /* ── TEXT ────────────────────────────────────────────────────── */
+    --text-primary: #cdd6f4; /* Text                                         */
+    --text-secondary: #bac2de; /* Subtext 1                                    */
+    --text-muted: #6c7086; /* Overlay 0                                    */
+    --text-accent: #cba6f7; /* Mauve                                        */
+    --text-link: #89b4fa; /* Blue                                         */
+    --text-heading: #cdd6f4; /* Text                                         */
+
+    /* ── ACCENT ──────────────────────────────────────────────────── */
+    --accent: #cba6f7; /* Mauve                                         */
+    --accent-hover: #d6b9f8;
+    --accent-dim: rgba(203, 166, 247, 0.14);
+
+    /* ── STATUS ──────────────────────────────────────────────────── */
+    --danger: #f38ba8; /* Red                                           */
+    --danger-hover: #f5a5bc;
+    --warning: #fab387; /* Peach                                         */
+
+    /* ── SHADOWS ─────────────────────────────────────────────────── */
+    --shadow-sm: 0 1px 3px rgba(17, 17, 27, 0.5);
+    --shadow-md: 0 4px 16px rgba(17, 17, 27, 0.6);
+    --shadow-lg: 0 8px 32px rgba(17, 17, 27, 0.7);
+    --shadow-toolbar: 0 4px 20px rgba(17, 17, 27, 0.6);
+
+    /* ── SYNTAX ──────────────────────────────────────────────────── */
+    --syntax-heading: #89b4fa; /* Blue                                         */
+    --syntax-bold: #cdd6f4;
+    --syntax-italic: #f5c2e7; /* Pink                                         */
+    --syntax-code: #a6e3a1; /* Green                                        */
+    --syntax-link: #89b4fa;
+    --syntax-quote: #6c7086;
+    --syntax-hr: #45475a;
+}
+
+/* ── Editor content overrides ────────────────────────────────── */
+
+.ProseMirror h1 {
+    color: #cba6f7;
+}
+.ProseMirror h2 {
+    color: #89b4fa;
+}
+.ProseMirror h3 {
+    color: #74c7ec;
+}
+.ProseMirror h4 {
+    color: #94e2d5;
+}
+.ProseMirror h5 {
+    color: #a6e3a1;
+}
+.ProseMirror h6 {
+    color: #f9e2af;
+}
+
+.ProseMirror strong {
+    color: #cdd6f4;
+    font-weight: 700;
+}
+.ProseMirror em {
+    color: #f5c2e7;
+    font-style: italic;
+}
+
+.ProseMirror code {
+    background: rgba(166, 227, 161, 0.1);
+    color: #a6e3a1;
+    border-color: rgba(166, 227, 161, 0.2);
+}
+
+.ProseMirror a {
+    color: #89b4fa;
+}
+.ProseMirror a:hover {
+    color: #b4d0fa;
+}
+
+.ProseMirror blockquote {
+    border-left-color: #cba6f7;
+    color: #9399b2;
+}
+
+.ProseMirror pre {
+    background: #181825;
+    border-color: #45475a;
+}
+
+.ProseMirror th {
+    background: #313244;
+    color: #cdd6f4;
+}
+.ProseMirror td,
+.ProseMirror th {
+    border-color: #45475a;
+}
+
+.ProseMirror hr {
+    border-top-color: #45475a;
+}

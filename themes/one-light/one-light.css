@@ -1,0 +1,133 @@
+/*
+ * One Light for Mark2View
+ * Author: Abdulaziz-Hu
+ * Version: 1.0.0
+ * Variant: light
+ *
+ * Inspired by Atom One Light. A clean, professional light theme with
+ * a cool white base, soft grays, and a vivid purple-blue accent.
+ * Ideal for daytime writing in bright environments.
+ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+    /* ── BACKGROUNDS ─────────────────────────────────────────────── */
+    --bg-app: #fafafa;
+    --bg-sidebar: #f0f0f0;
+    --bg-editor: #fafafa;
+    --bg-titlebar: #e8e8e8;
+    --bg-panel: #f0f0f0;
+    --bg-input: #ffffff;
+    --bg-hover: #e8e8e8;
+    --bg-active: #dde1e7;
+    --bg-modal: #ffffff;
+    --bg-overlay: rgba(100, 100, 100, 0.4);
+    --bg-toolbar: rgba(250, 250, 250, 0.96);
+    --bg-scrollbar: #e8e8e8;
+    --bg-scrollbar-thumb: #c0c0c0;
+
+    /* ── BORDERS ─────────────────────────────────────────────────── */
+    --border: #d0d0d0;
+    --border-subtle: #e4e4e4;
+    --border-focus: #4078f2; /* Blue                                          */
+
+    /* ── TEXT ────────────────────────────────────────────────────── */
+    --text-primary: #383a42;
+    --text-secondary: #696c77;
+    --text-muted: #a0a1a7;
+    --text-accent: #4078f2; /* Blue                                          */
+    --text-link: #4078f2;
+    --text-heading: #383a42;
+
+    /* ── ACCENT ──────────────────────────────────────────────────── */
+    --accent: #4078f2;
+    --accent-hover: #2963e8;
+    --accent-dim: rgba(64, 120, 242, 0.1);
+
+    /* ── STATUS ──────────────────────────────────────────────────── */
+    --danger: #e45649;
+    --danger-hover: #d03a2e;
+    --warning: #c18401;
+
+    /* ── SHADOWS ─────────────────────────────────────────────────── */
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.1);
+    --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.12);
+    --shadow-toolbar: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+    /* ── SYNTAX ──────────────────────────────────────────────────── */
+    --syntax-heading: #4078f2;
+    --syntax-bold: #383a42;
+    --syntax-italic: #696c77;
+    --syntax-code: #50a14f; /* Green                                         */
+    --syntax-link: #4078f2;
+    --syntax-quote: #a0a1a7;
+    --syntax-hr: #d0d0d0;
+}
+
+/* ── Editor content overrides ────────────────────────────────── */
+
+.ProseMirror h1 {
+    color: #e45649;
+} /* Red */
+.ProseMirror h2 {
+    color: #c18401;
+} /* Yellow/dark */
+.ProseMirror h3 {
+    color: #4078f2;
+} /* Blue */
+.ProseMirror h4 {
+    color: #50a14f;
+} /* Green */
+.ProseMirror h5 {
+    color: #986801;
+} /* Orange */
+.ProseMirror h6 {
+    color: #a626a4;
+} /* Purple */
+
+.ProseMirror strong {
+    color: #383a42;
+    font-weight: 700;
+}
+.ProseMirror em {
+    color: #696c77;
+    font-style: italic;
+}
+
+.ProseMirror code {
+    background: rgba(80, 161, 79, 0.08);
+    color: #50a14f;
+    border-color: rgba(80, 161, 79, 0.2);
+}
+
+.ProseMirror a {
+    color: #4078f2;
+}
+.ProseMirror a:hover {
+    color: #2963e8;
+}
+
+.ProseMirror blockquote {
+    border-left-color: #4078f2;
+    color: #a0a1a7;
+}
+
+.ProseMirror pre {
+    background: #f0f0f0;
+    border-color: #d0d0d0;
+}
+
+.ProseMirror th {
+    background: #e8e8e8;
+    color: #383a42;
+}
+.ProseMirror td,
+.ProseMirror th {
+    border-color: #d0d0d0;
+}
+
+.ProseMirror hr {
+    border-top-color: #d0d0d0;
+}

@@ -1,0 +1,132 @@
+/*
+ * Rosé Pine for Mark2View
+ * Author: Abdulaziz-Hu
+ * Version: 1.0.0
+ * Variant: dark
+ *
+ * Inspired by the Rosé Pine palette. all-natural, muted dark theme
+ * with warm rose and gold tones. Gentle on the eyes for long writing sessions.
+ */
+
+:root,
+[data-theme="dark"],
+[data-theme="light"] {
+    /* ── BACKGROUNDS ─────────────────────────────────────────────── */
+    --bg-app: #191724; /* Base                                          */
+    --bg-sidebar: #1f1d2e; /* Surface                                       */
+    --bg-editor: #191724; /* Base                                          */
+    --bg-titlebar: #15131e; /* Slightly deeper                               */
+    --bg-panel: #26233a; /* Overlay                                       */
+    --bg-input: #26233a;
+    --bg-hover: #2a2740;
+    --bg-active: #302d47;
+    --bg-modal: #26233a;
+    --bg-overlay: rgba(21, 19, 30, 0.8);
+    --bg-toolbar: rgba(31, 29, 46, 0.96);
+    --bg-scrollbar: #26233a;
+    --bg-scrollbar-thumb: #302d47;
+
+    /* ── BORDERS ─────────────────────────────────────────────────── */
+    --border: #403d52;
+    --border-subtle: #26233a;
+    --border-focus: #eb6f92; /* Love / rose                                   */
+
+    /* ── TEXT ────────────────────────────────────────────────────── */
+    --text-primary: #e0def4; /* Text                                          */
+    --text-secondary: #908caa; /* Subtle                                        */
+    --text-muted: #6e6a86; /* Muted                                         */
+    --text-accent: #eb6f92; /* Love                                          */
+    --text-link: #9ccfd8; /* Foam                                          */
+    --text-heading: #e0def4;
+
+    /* ── ACCENT ──────────────────────────────────────────────────── */
+    --accent: #eb6f92; /* Love                                           */
+    --accent-hover: #f08daa;
+    --accent-dim: rgba(235, 111, 146, 0.14);
+
+    /* ── STATUS ──────────────────────────────────────────────────── */
+    --danger: #eb6f92;
+    --danger-hover: #f08daa;
+    --warning: #f6c177; /* Gold                                           */
+
+    /* ── SHADOWS ─────────────────────────────────────────────────── */
+    --shadow-sm: 0 1px 3px rgba(21, 19, 30, 0.5);
+    --shadow-md: 0 4px 16px rgba(21, 19, 30, 0.6);
+    --shadow-lg: 0 8px 32px rgba(21, 19, 30, 0.7);
+    --shadow-toolbar: 0 4px 20px rgba(21, 19, 30, 0.6);
+
+    /* ── SYNTAX ──────────────────────────────────────────────────── */
+    --syntax-heading: #c4a7e7; /* Iris                                          */
+    --syntax-bold: #e0def4;
+    --syntax-italic: #eb6f92; /* Love                                          */
+    --syntax-code: #31748f; /* Pine                                          */
+    --syntax-link: #9ccfd8; /* Foam                                          */
+    --syntax-quote: #6e6a86;
+    --syntax-hr: #403d52;
+}
+
+/* ── Editor content overrides ────────────────────────────────── */
+
+.ProseMirror h1 {
+    color: #eb6f92;
+} /* Love */
+.ProseMirror h2 {
+    color: #c4a7e7;
+} /* Iris */
+.ProseMirror h3 {
+    color: #9ccfd8;
+} /* Foam */
+.ProseMirror h4 {
+    color: #f6c177;
+} /* Gold */
+.ProseMirror h5 {
+    color: #ebbcba;
+} /* Rose */
+.ProseMirror h6 {
+    color: #908caa;
+} /* Subtle */
+
+.ProseMirror strong {
+    color: #e0def4;
+    font-weight: 700;
+}
+.ProseMirror em {
+    color: #eb6f92;
+    font-style: italic;
+}
+
+.ProseMirror code {
+    background: rgba(49, 116, 143, 0.12);
+    color: #9ccfd8;
+    border-color: rgba(49, 116, 143, 0.25);
+}
+
+.ProseMirror a {
+    color: #9ccfd8;
+}
+.ProseMirror a:hover {
+    color: #b8e0e8;
+}
+
+.ProseMirror blockquote {
+    border-left-color: #eb6f92;
+    color: #908caa;
+}
+
+.ProseMirror pre {
+    background: #1f1d2e;
+    border-color: #403d52;
+}
+
+.ProseMirror th {
+    background: #26233a;
+    color: #e0def4;
+}
+.ProseMirror td,
+.ProseMirror th {
+    border-color: #403d52;
+}
+
+.ProseMirror hr {
+    border-top-color: #403d52;
+}
